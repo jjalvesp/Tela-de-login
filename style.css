@@ -31,3 +31,34 @@ body{
 .background h1{
     text-align: center
 }
+
+input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.esqueceu {
+    text-decoration: none;
+    color: black;
+}
+
+.esqueceu:hover {
+    /* color: white */
+    font-weight: 600;
+}
+
+button {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin: 20 auto;
+    background: linear-gradient(to right, blue, black);
+    color: white;
+}
+
+
